@@ -1,11 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profil Degus Satya Mudana</title>
+    <style>
+        /* Mengatur gaya dasar halaman */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5; /* Warna background abu-abu muda */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Kotak Kartu Profil */
+        .profile-card {
+            background-color: white;
+            width: 90%;
+            max-width: 400px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Efek bayangan */
+            text-align: center;
+        }
+
+        /* Foto Profil (Lingkaran kosong untuk contoh) */
+        .avatar {
+            width: 120px;
+            height: 120px;
+            background-color: #3b82f6; /* Warna biru */
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        /* Judul Nama */
+        h1 {
+            color: #1f2937;
+            font-size: 24px;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+
+        /* Sub-judul (Umur & Asal) */
+        .subtitle {
+            color: #6b7280;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        /* Garis pemisah */
+        .divider {
+            height: 1px;
+            background-color: #e5e7eb;
+            margin: 20px 0;
+        }
+
+        /* Bagian Detail */
+        .details {
+            text-align: left;
+            color: #374151;
+            line-height: 1.6;
+        }
+
+        .details p {
+            margin: 10px 0;
+        }
+
+        /* Label tebal untuk informasi */
+        .label {
+            font-weight: bold;
+            color: #3b82f6;
+        }
+
+        /* Badge Keahlian */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .skill-badge {
+            background-color: #dbeafe;
+            color: #1e40af;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
 </head>
 <body>
-    <h1>HALO, SAYA DEGUS SATYA MUDANA</h1>
-    <p>saya alumni SMA negeri 6 kendari <br>saya lahir di bau bau 23 mei 2005 dan sekarang umur saya 19 tahun <br>keahlian saya deisgn, edit video, dan photography <br>hobby saya nda tau</p>
+
+    <div class="profile-card">
+        <div class="avatar">D</div>
+
+        <h1>Degus Satya Mudana</h1>
+        <p class="subtitle">Alumni SMA Negeri 6 Kendari</p>
+
+        <div class="skills-container">
+            <span class="skill-badge">Design</span>
+            <span class="skill-badge">Video Editing</span>
+            <span class="skill-badge">Photography</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="details">
+            <p><span class="label">Asal:</span> Bau Bau</p>
+            <p><span class="label">Tanggal Lahir:</span> 23 Mei 2005</p>
+            <p><span class="label">Umur:</span> 19 Tahun</p>
+            <p><span class="label">Hobi:</span> Masih dicari... (Nda tau)</p>
+        </div>
+    </div>
+
+</body>
 </html>
